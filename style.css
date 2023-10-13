@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    width: 250px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
